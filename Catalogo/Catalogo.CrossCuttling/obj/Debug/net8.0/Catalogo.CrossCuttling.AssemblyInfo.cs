@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Catalogo.CrossCuttling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0223692d49cf3244ca29cf41bb6d9d4f61cbb4a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Catalogo.CrossCuttling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Catalogo.CrossCuttling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

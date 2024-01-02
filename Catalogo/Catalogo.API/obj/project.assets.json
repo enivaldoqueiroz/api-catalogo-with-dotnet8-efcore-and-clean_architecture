@@ -88,6 +88,57 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Catalogo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Catalogo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Catalogo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.Application.dll": {}
+        }
+      },
+      "Catalogo.CrossCuttling/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Catalogo.Application": "1.0.0",
+          "Catalogo.Domain": "1.0.0",
+          "Catalogo.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Catalogo.CrossCuttling.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.CrossCuttling.dll": {}
+        }
+      },
+      "Catalogo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Catalogo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.Domain.dll": {}
+        }
+      },
+      "Catalogo.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Catalogo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Catalogo.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalogo.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -420,10 +471,31 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Catalogo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.Application/Catalogo.Application.csproj",
+      "msbuildProject": "../Catalogo.Application/Catalogo.Application.csproj"
+    },
+    "Catalogo.CrossCuttling/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.CrossCuttling/Catalogo.CrossCuttling.csproj",
+      "msbuildProject": "../Catalogo.CrossCuttling/Catalogo.CrossCuttling.csproj"
+    },
+    "Catalogo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.Domain/Catalogo.Domain.csproj",
+      "msbuildProject": "../Catalogo.Domain/Catalogo.Domain.csproj"
+    },
+    "Catalogo.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Catalogo.Infrastructure/Catalogo.Infrastructure.csproj",
+      "msbuildProject": "../Catalogo.Infrastructure/Catalogo.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Catalogo.CrossCuttling >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -453,7 +525,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jose.Queiroz\\Desktop\\Projetos\\api-catalogo-with-dotnet8-efcore-and-clean_architecture\\Catalogo\\Catalogo.CrossCuttling\\Catalogo.CrossCuttling.csproj": {
+              "projectPath": "C:\\Users\\Jose.Queiroz\\Desktop\\Projetos\\api-catalogo-with-dotnet8-efcore-and-clean_architecture\\Catalogo\\Catalogo.CrossCuttling\\Catalogo.CrossCuttling.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

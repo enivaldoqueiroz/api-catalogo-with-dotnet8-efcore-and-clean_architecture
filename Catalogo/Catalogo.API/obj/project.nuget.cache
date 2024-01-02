@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "34FpbhLbjFi2IeLyRC4WFIPA2vnEyNFX447NRmRvzQTXs/+cqlygpBIz45pm8HIBQlSa2hU+9r1rx/Yb5Ce/3Q==",
+  "dgSpecHash": "a+otcyEhc848ostgJ68kJ1lNU9yK5WjZ1kBfDciN+WmRB15HGb116ELpv0lHaEIe91/KkgfeqJd0aO8tRXD6Xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jose.Queiroz\\Desktop\\Projetos\\api-catalogo-with-dotnet8-efcore-and-clean_architecture\\Catalogo\\Catalogo.API\\Catalogo.API.csproj",
   "expectedPackageFiles": [
