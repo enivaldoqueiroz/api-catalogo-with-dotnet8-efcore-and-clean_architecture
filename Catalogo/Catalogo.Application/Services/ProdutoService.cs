@@ -6,7 +6,7 @@ using Catalogo.Domain.Interfaces;
 
 namespace Catalogo.Application.Services
 {
-    internal class ProdutoService : IProdutoService
+    public class ProdutoService : IProdutoService
     {
         private IProdutoRepository _productRepository;
 
