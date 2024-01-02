@@ -1,0 +1,12 @@
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\bin\Debug\net8.0\Catalogo.CrossCuttling.deps.json
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\bin\Debug\net8.0\Catalogo.CrossCuttling.dll
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\bin\Debug\net8.0\Catalogo.CrossCuttling.pdb
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.AssemblyInfoInputs.cache
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.AssemblyInfo.cs
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.csproj.CoreCompileInputs.cache
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.sourcelink.json
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.dll
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\refint\Catalogo.CrossCuttling.dll
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\Catalogo.CrossCuttling.pdb
+C:\Users\Jose.Queiroz\Desktop\Projetos\api-catalogo-with-dotnet8-efcore-and-clean_architecture\Catalogo\Catalogo.CrossCuttling\obj\Debug\net8.0\ref\Catalogo.CrossCuttling.dll
