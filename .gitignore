@@ -112,3 +112,16 @@
 /Catalogo/Catalogo.Infrastructure/obj/Catalogo.Infrastructure.csproj.nuget.g.targets
 /Catalogo/Catalogo.Infrastructure/obj/project.assets.json
 /Catalogo/Catalogo.Infrastructure/obj/project.nuget.cache
+/Catalogo/Catalogo.API/bin/Debug/net8.0/AutoMapper.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Catalogo.API.runtimeconfig.json
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Npgsql.dll
+/Catalogo/Catalogo.API/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Catalogo/Catalogo.API/obj/Debug/net8.0/Catalogo.API.genruntimeconfig.cache
+/Catalogo/Catalogo.Infrastructure/obj/Debug/net8.0/Catalogo.Infrastructure.genruntimeconfig.cache
+/Catalogo/Catalogo.Infrastructure/bin/Debug/net8.0/Catalogo.Infrastructure.runtimeconfig.json
+/Catalogo/.vs/ProjectEvaluation/catalogo.metadata.v7.bin
+/Catalogo/.vs/ProjectEvaluation/catalogo.projects.v7.bin
