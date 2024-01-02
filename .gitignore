@@ -128,3 +128,8 @@
 /Catalogo/Catalogo.API/Catalogo.API.csproj.user
 /Catalogo/Catalogo.API/Catalogo.API.csproj.user
 /Catalogo/obj
+/Catalogo/Catalogo.Application/obj/Debug/net8.0/Catalogo.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Catalogo/Catalogo.Domain/obj/Debug/net8.0/Catalogo.Domain.assets.cache
+/Catalogo/Catalogo.CrossCuttling/obj/Debug/net8.0/Catalogo.CrossCuttling.GeneratedMSBuildEditorConfig.editorconfig
+/Catalogo/Catalogo.Domain/obj/Debug/net8.0/Catalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Catalogo/Catalogo.Infrastructure/obj/Debug/net8.0/Catalogo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
