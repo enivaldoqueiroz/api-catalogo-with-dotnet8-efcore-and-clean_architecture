@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Catalogo.Domain\Catalogo.Domain.csproj" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <ProjectReference Include="..\Catalogo.Domain\Catalogo.Domain.csproj" />
   </ItemGroup>
 
 </Project>

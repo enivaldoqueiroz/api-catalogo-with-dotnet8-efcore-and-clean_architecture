@@ -10,6 +10,7 @@ namespace Catalogo.Application.Services
     {
         private ICategoriaRepository _categoryRepository;
         private readonly IMapper _mapper;
+
         public CategoriaService(ICategoriaRepository categoryRepository,
             IMapper mapper)
         {
