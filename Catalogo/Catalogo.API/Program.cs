@@ -1,10 +1,20 @@
 using Catalogo.CrossCuttling.IoC;
+using Catalogo.Infrastructure.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+//var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+//    .UseNpgsql(connectionString)
+//    .Options;
+
+//using var context = new ApplicationDbContext(contextOptions);
 
 builder.Services.AddControllers();
 builder.Services.AddInfrastructureAPI(builder.Configuration);

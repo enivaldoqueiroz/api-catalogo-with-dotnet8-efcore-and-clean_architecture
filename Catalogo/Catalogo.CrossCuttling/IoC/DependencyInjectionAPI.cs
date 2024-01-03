@@ -15,8 +15,10 @@ namespace Catalogo.CrossCuttling.IoC
         public static IServiceCollection AddInfrastructureAPI(this IServiceCollection services,
         IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-               options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+            var a = configuration.GetConnectionString("DefaultConnection");
+
+            var b = services.AddDbContext<ApplicationDbContext>(options =>
+               options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();

@@ -7,7 +7,14 @@ namespace Catalogo.Infrastructure.Context
 {
     public class ApplicationDbContext : DbContext
     {
+        private readonly string _connectionString;
+
         public ApplicationDbContext() : base() { }
+
+        public ApplicationDbContext(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -23,9 +30,22 @@ namespace Catalogo.Infrastructure.Context
                 .Assembly);
         }
 
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseNpgsql("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=db_api_catalogo_cleanarchitecture;");
+        //}
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=db_api_catalogo_cleanarchitecture;");
+            if (!optionsBuilder.IsConfigured)
+            {
+                IConfigurationRoot configuration = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+                var connectionString = configuration.GetConnectionString("DefaultConnection");
+                optionsBuilder.UseNpgsql(connectionString);
+            }
         }
     }
 }

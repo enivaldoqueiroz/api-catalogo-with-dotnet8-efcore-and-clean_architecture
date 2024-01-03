@@ -133,3 +133,5 @@
 /Catalogo/Catalogo.CrossCuttling/obj/Debug/net8.0/Catalogo.CrossCuttling.GeneratedMSBuildEditorConfig.editorconfig
 /Catalogo/Catalogo.Domain/obj/Debug/net8.0/Catalogo.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Catalogo/Catalogo.Infrastructure/obj/Debug/net8.0/Catalogo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Catalogo/Catalogo.Infrastructure/bin/Debug/net8.0
+*.BuildWithSkipAnalyzers
